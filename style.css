@@ -1,4 +1,5 @@
 body {
+    width: 100%;
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -28,7 +29,6 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -317,7 +317,6 @@ a:hover {
 }
 
 .navbar .nav {
-    padding-top: 2px;
     margin-right: -16px;
     float: right;
     z-index: 1;
@@ -326,7 +325,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -655,9 +654,6 @@ a {
     color: #575757;
 }
 
-.container {
-    max-width: 1000px;
-}
 
 .hero-bloc-text {
     font-size: 38px;
@@ -682,7 +678,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 60%;
     margin: auto auto auto auto;
 }
 
@@ -701,9 +697,11 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 400px; 
     margin: auto auto 50px auto;
-    font-size: 30px;
+    font-size: 45px;
+    display: flex;
+    justify-content: space-around;
 }
 
 h2 {
@@ -719,7 +717,7 @@ h3 {
 }
 
 .med-width-whitespace {
-    max-width: 800px;
+    max-width: 70%;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
@@ -866,9 +864,6 @@ h4 {
 }
 
 @media (max-width: 991px) {
-    .container {
-        width: 100%;
-    }
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1051,13 +1046,13 @@ h4 {
 }*/
 
 .bloc2__titre{
-    font-size: 2.2rem;
+    font-size: 3.2rem;
 }
 
 .texte-citation{
     font-size: 2.5rem;
     font-style: italic;
-}
+} 
 
 .texte-auteur{
     font-size: 18px;
@@ -1068,14 +1063,40 @@ h4 {
 }
 
 .text-center {
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .textcenter__footer{
-    font-size: 20px;
+    font-size: 25px;
     color: white;
 }
 
-.navbar-header img{
+.navbar-header img{ 
     height: 60px;
 }
+
+.img-responsive{
+    object-fit: cover;
+    width:576px;
+}
+
+.mg-md{
+    opacity: 1;
+}
+
+@media (max-width:767px){
+    .img-responsive{
+        width:576px;
+    }
+}
+
+@media (min-width:768){
+    .img-responsive{
+        width:300px;
+    }
+}
+
+.footer__texte{
+    font-size: 20px;
+}
+

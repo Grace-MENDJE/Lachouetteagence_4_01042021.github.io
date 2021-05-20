@@ -1985,7 +1985,7 @@ pre code {
     margin-left: auto
 }
 
-@media (min-width:768px) {
+/*@media (min-width:768px) {
     .container {
         width: 750px
     }
@@ -2001,7 +2001,7 @@ pre code {
     .container {
         width: 1170px
     }
-}
+}*/
 
 .container-fluid {
     padding-right: 15px;
@@ -2010,10 +2010,6 @@ pre code {
     margin-left: auto
 }
 
-.row {
-    margin-right: -15px;
-    margin-left: -15px
-}
 
 .col-lg-1,
 .col-lg-10,
@@ -2485,9 +2481,7 @@ pre code {
     .col-md-9 {
         width: 75%
     }
-    .col-md-8 {
-        width: 66.66666667%
-    }
+    
     .col-md-7 {
         width: 58.33333333%
     }
@@ -2617,9 +2611,7 @@ pre code {
     .col-md-offset-3 {
         margin-left: 25%
     }
-    .col-md-offset-2 {
-        margin-left: 16.66666667%
-    }
+
     .col-md-offset-1 {
         margin-left: 8.33333333%
     }
@@ -5103,10 +5095,10 @@ textarea.input-group-sm>.input-group-btn>.btn {
         box-shadow: none
     }
     .navbar-collapse.collapse {
-        display: block !important;
-        height: auto !important;
+        display: block ;
+        height: auto ;
         padding-bottom: 0;
-        overflow: visible !important
+        overflow: visible ;
     }
     .navbar-collapse.in {
         overflow-y: visible
