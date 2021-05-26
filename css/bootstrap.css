@@ -5074,7 +5074,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-collapse {
-    padding-left: 65%;
+    padding-left: 60%;
     overflow-x: visible;
     -webkit-overflow-scrolling: touch;
     border-top: 1px solid transparent;

@@ -295,7 +295,7 @@ a:hover {
 
 .navbar-brand {
     height: 40px;
-    padding: 3px 15px;
+    padding: 0px 5px;
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
@@ -325,6 +325,12 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 20px;
+}
+
+@media (max-width:767px){
+    .nav > li{
+        padding-top: 2%;
+    }
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -913,9 +919,9 @@ h4 {
     }
     .navbar .nav {
         padding-top: 0;
-        border-top: 1px solid rgba(0, 0, 0, .2);
         float: none;
     }
+
     .navbar.row {
         margin-left: 0;
         margin-right: 0;
@@ -928,8 +934,6 @@ h4 {
     }
     .nav > li {
         margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
         text-align: left;
         padding-left: 15px;
         width: 100%;
@@ -964,6 +968,15 @@ h4 {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
+    
+@media (max-width:375px){
+    .navbar-collapse{
+        width: 50%;
+        margin-top: -2%;
+margin-right: -25%;
+    }    
+}
+
     .navbar-brand img {
         max-height: 40px;
         width: auto;
@@ -1078,6 +1091,13 @@ h4 {
     height: 60px;
 }
 
+@media (max-width:375px){
+    .navbar-header img {
+        height: 31px;
+        padding-top: 8%;
+    }
+}
+
 .img-responsive{
     object-fit: cover;
     width:576px;
@@ -1127,12 +1147,16 @@ label{
 }
 
 input{
-    width: 100%;
+    width: 90%;
     height: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 textarea{
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .contact-adresse{
